@@ -1,0 +1,26 @@
+# Database credentials - DO NOT COMMIT
+category_manager/config/db_config.py
+FormFieldMapping/config/db_config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local

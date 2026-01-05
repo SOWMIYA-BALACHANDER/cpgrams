@@ -30,7 +30,7 @@ def get_valid_uuid(prompt: str) -> str:
         value = input(prompt).strip()
         if UUID_PATTERN.match(value):
             return value
-        print("  ⚠ Invalid UUID format. Expected: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")
+        print(" Invalid UUID format. Expected: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")
 
 
 def generate_description(category_name: str) -> str:
