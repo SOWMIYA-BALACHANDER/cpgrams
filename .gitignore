@@ -1,5 +1,6 @@
 # Database credentials - DO NOT COMMIT
 category_manager/config/db_config.py
+EntityManager/config/db_config.py
 FormFieldMapping/config/db_config.py
 
 # Python

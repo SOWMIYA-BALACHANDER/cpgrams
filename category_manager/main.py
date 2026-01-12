@@ -18,7 +18,6 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from utils.db_connection import DatabaseConnection
 
 
-# UUID validation pattern
 UUID_PATTERN = re.compile(
     r'^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
 )
